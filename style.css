@@ -1,0 +1,111 @@
+/* 공통 스타일 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    background-color: #4CAF50;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+}
+
+.image-grid {
+    display: flex;
+    gap: 10px;
+}
+
+.image-grid img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+/* 갤러리 이미지 */
+.image-grid img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+/* 최근 일기 섹션 */
+#recent-diary ul {
+    list-style: none;
+    padding: 0;
+}
+
+#recent-diary ul li {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+/* 최근 갤러리 섹션 */
+#recent-gallery .image-grid img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+/* 더보기 버튼 스타일 */
+.view-more {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.delete-button {
+    margin-left: 10px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 3px 10px;
+}
+
+.delete-button:hover {
+    background-color: darkred;
+}

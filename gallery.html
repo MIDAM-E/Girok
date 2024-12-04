@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>갤러리</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>갤러리</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">소개</a></li>
+                <li><a href="diary.html">내 일기</a></li>
+                <li><a href="gallery.html">갤러리</a></li>
+                <li><a href="links.html">외부 링크</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="gallery">
+            <h2>갤러리</h2>
+            <form id="gallery-form">
+                <input type="file" id="image-upload" accept="image/*">
+                <button type="button" id="add-image">추가</button>
+            </form>
+            <div class="image-grid" id="gallery-images"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>나의 모든 기록들.</p>
+    </footer>
+
+    <script src="gallery.js"></script>
+</body>
+</html>

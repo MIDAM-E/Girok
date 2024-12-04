@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 일기</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>내 일기</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">소개</a></li>
+                <li><a href="diary.html">내 일기</a></li>
+                <li><a href="gallery.html">갤러리</a></li>
+                <li><a href="links.html">외부 링크</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="diary">
+            <h2>내 일기</h2>
+            <form id="diary-form">
+                <textarea id="diary-input" rows="5" placeholder="오늘의 일기를 작성해보세요"></textarea>
+                <button type="button" id="add-diary">추가</button>
+            </form>
+            <ul id="diary-list"></ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>나의 모든 기록들.</p>
+    </footer>
+
+    <script src="diary.js"></script>
+</body>
+</html>

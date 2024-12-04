@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>내 취미 소개</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="diary.js" defer></script>
+    <script src="gallery.js" defer></script>
+    <script src="intro.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>내 취미 소개</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">소개</a></li>
+                <li><a href="diary.html">내 일기</a></li>
+                <li><a href="gallery.html">갤러리</a></li>
+                <li><a href="links.html">외부 링크</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="intro">
+            <h2>소개</h2>
+            <p>안녕하세요! 이곳은 자신의 생전 기록들을 모으는 홈페이지 입니다.</p>
+            <p>자유롭게 기록하고 싶은 것을 기록하시고 두고 두고 추억하시길 바랍니다!</p>
+        </section>
+
+        <section id="recent-diary">
+            <h2>최근 일기</h2>
+            <ul id="diary-preview">
+                <!-- 최근 일기 항목이 JavaScript로 추가됩니다 -->
+            </ul>
+            <a href="diary.html" class="view-more">전체 보기</a>
+        </section>
+
+        <section id="recent-gallery">
+            <h2>최근 갤러리</h2>
+            <div class="image-grid" id="gallery-preview">
+                <!-- 최근 이미지가 JavaScript로 추가됩니다 -->
+            </div>
+            <a href="gallery.html" class="view-more">전체 보기</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>나의 모든 기록들.</p>
+    </footer>
+</body>
+</html>
